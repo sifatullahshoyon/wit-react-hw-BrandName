@@ -1,0 +1,68 @@
+.header {
+  background-color: var(--primary-color);
+  min-height: 75vh;
+}
+
+.header-container {
+  max-width: 1140px;
+  padding: 0 5px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  gap: 20px;
+}
+
+.header-sub-title {
+  color: #96bb7c;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  color: var(--default-color);
+  margin-bottom: 20px;
+}
+
+.header-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: var(--secondery-color);
+  margin-bottom: 20px;
+}
+
+.header-btns {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-join-us {
+  background-color: #96bb7c;
+  color: white;
+  font-weight: bold;
+  width: 138px;
+  height: 52px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-learn-more {
+  background-color: transparent;
+  color: #96bb7c;
+  font-weight: bold;
+  width: 138px;
+  height: 52px;
+  border-radius: 5px;
+  border: 1px solid #96bb7c;
+  cursor: pointer;
+}
